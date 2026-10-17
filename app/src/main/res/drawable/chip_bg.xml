@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape><solid android:color="@color/play" /><corners android:radius="100dp" /></shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape><solid android:color="@color/key_pressed" /><corners android:radius="100dp" />
+            <stroke android:width="1dp" android:color="@color/edge" /></shape>
+    </item>
+    <item>
+        <shape><solid android:color="@color/key" /><corners android:radius="100dp" />
+            <stroke android:width="1dp" android:color="@color/edge" /></shape>
+    </item>
+</selector>
